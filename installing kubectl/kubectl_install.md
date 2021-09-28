@@ -5,7 +5,14 @@ kubectl is installable on a variety of Linux platforms, macOS and Windows. Find 
 * [macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
 * [windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 
-Now, get into your portal and click on ![GetConfig](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/get_config.PNG). Save the file as config and put the file in your /.kube folder. This folder may not exists on your machine, to create it execute: 
+Now, get into your portal and click on ![GetConfig](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/get_config.PNG)
+Save the file as config and put the file in your /.kube folder. This folder may not exists on your machine, to create it execute: 
 ```
   mkdir ~/.kube
 ```
+Create an namespace on your portal. then, test the connection of your namespace using *kubectl* on command prompt, terminal, or PowerShell.
+```
+  kubectl get pods -n your_namespace
+```
+
+For more information and details visit [Quick Start](https://ucsd-prp.gitlab.io/userdocs/start/quickstart/). Now, lets create our first Pod [creating our first pod].
