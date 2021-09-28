@@ -3,5 +3,7 @@ An account need to be create to get access to the PRP Nautilus cluster. To creat
 
 ![CILogon](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/CILogon.PNG)
 
-## Important remarks
-If  your university is not registered in this platform you can seletc **Google**  
+
+If your university is not registered in this platform you can seletc **Google** and create your account. Once your account is created you will be able to get into your portal on Nautilus.
+
+![Portal](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/nautilus.PNG)
