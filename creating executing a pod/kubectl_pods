@@ -1,0 +1,11 @@
+#  kubectl commands.
+* list of cluster node executed on Nautilus
+'''
+kubectl get nodes
+'''
+* To list the node = <pods, deployments, services, jobs> that are attached to your namespace 
+'''
+kubectl get pods node
+'''
+change the word node by one the modality defined as node.
+* 
