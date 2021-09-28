@@ -7,3 +7,5 @@ An account need to be create to get access to the PRP Nautilus cluster. To creat
 If your university is not registered in this platform you can seletc **Google** and create your account. Once your account is created you will be able to get into your portal on Nautilus.
 
 ![Portal](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/nautilus.PNG)
+
+Now you need to request access as a *admin* or *user* using using the [matrix] (https://ucsd-prp.gitlab.io/userdocs/start/contact/) or this could be done by *admin users*.
