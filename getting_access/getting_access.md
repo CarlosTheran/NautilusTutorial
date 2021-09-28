@@ -8,6 +8,8 @@ If your university is not registered in this platform you can seletc **Google** 
 
 ![Portal](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/nautilus.PNG)
 
-Now you need to request access as a *admin* or *user* using the [matrix](https://ucsd-prp.gitlab.io/userdocs/start/contact/) or this could be done by *admin users*.  
+Now you need to request access as a *admin* or *user* using the [matrix](https://ucsd-prp.gitlab.io/userdocs/start/contact/) or this could be done by *admin users*.
+
+![admin_request](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/admin_matrix.png)
 
 If you are admin, you are able to create namespace in which containers can be attach. Now please go to [kubectl]   to install kubernet on your computer and get access to the resources luching your Pods, Jobs and Deployments.
