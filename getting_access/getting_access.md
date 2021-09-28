@@ -12,4 +12,4 @@ Now you need to request access as a *admin* or *user* using the [matrix](https:/
 
 ![admin_request](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/admin_matrix.png)
 
-If you are admin, you are able to create namespace in which containers can be attach. Now please go to [kubectl]   to install kubernet on your computer and get access to the resources luching your Pods, Jobs and Deployments.
+If you are admin, you are able to create namespace in which containers can be attach. Now please go to [kubectl](https://github.com/CarlosTheran/NautilusTutorial/blob/main/installing%20kubectl/kubectl_install.md) to install kubernet on your computer and get access to the resources luching your Pods, Jobs and Deployments.
