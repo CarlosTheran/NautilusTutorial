@@ -66,3 +66,39 @@ The output of this command must the following. Which mean that you are into your
 ```
 (base) jovyan@gpu-pod-example:~$ lscpu
 ```
+* Now that you are into the container, you can luch a jupyter note book
+```
+jupyter notebook --ip='0.0.0.0'
+```
+The output must looks like this
+```
+[I 19:39:29.307 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-09-30 19:39:31.035 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-30 19:39:31.035 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-30 19:39:31.036 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-30 19:39:31.036 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-09-30 19:39:31.044 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.9/site-packages/jupyterlab
+[I 2021-09-30 19:39:31.044 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 19:39:31.049 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:39:31.049 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 19:39:31.049 NotebookApp] http://gpu-pod-example:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
+[I 19:39:31.049 NotebookApp]  or http://127.0.0.1:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
+[I 19:39:31.049 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:39:31.054 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///home/jovyan/.local/share/jupyter/runtime/nbserver-57-open.html
+    Or copy and paste one of these URLs:
+        http://gpu-pod-example:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
+     or http://127.0.0.1:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
+```
+* In a new command prompt or terminal run the following command
+ ```
+kubectl port-forward gpu-pod-example 8888:8888
+ ```
+
+ The output must be like this
+```
+Forwarding from 127.0.0.1:8888 -> 8888
+Forwarding from [::1]:8888 -> 8888
+```
