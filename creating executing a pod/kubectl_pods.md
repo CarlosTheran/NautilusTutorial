@@ -102,3 +102,12 @@ kubectl port-forward gpu-pod-example 8888:8888
 Forwarding from 127.0.0.1:8888 -> 8888
 Forwarding from [::1]:8888 -> 8888
 ```
+
+* Open a new tab on your brower (firefox, google chrome, ect) and paste the token generated when you lunch 
+your jupyter nootebook in this case, the token was.
+```
+http://127.0.0.1:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
+```
+The ouput will be 
+
+![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyter.PNG)
