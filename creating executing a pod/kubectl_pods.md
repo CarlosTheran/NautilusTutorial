@@ -15,6 +15,16 @@ To create a pod, we need to follow a structured file save as yaml extension. Let
   mkdir pods
 ```
 
+* Before to start creating and executing your pods check that you are in the corret *NAMESPACE*
+```
+kubectl config get-contexts
+```
+The output must be like this
+```
+CURRENT   NAME       CLUSTER    AUTHINFO                                    NAMESPACE
+*         nautilus   nautilus   http://cilogon.org/serverA/users/51474921   <YOUR NAME SPACE>
+```
+
 Please download the file [tensorflow-pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/tensorflow-pod.yaml)
 , which is an example of a *pod* and save it on your pods folder.
 
@@ -39,5 +49,16 @@ Sometimes create your pod take times, in this case you will see the STATUS as *C
 ```
 kubectl exec -it gpu-pod-datascience -- /bin/bash
 ```
+The output of this command must the following. Which mean that you are into your container or pod
 
+```
+(base) jovyan@gpu-pod-example:~$
+```
+* The following commands are use to see the specs of you pod.
 
+```
+(base) jovyan@gpu-pod-example:~$ uname
+(base) jovyan@gpu-pod-example:~$ uname --m
+(base) jovyan@gpu-pod-example:~$ uname -o
+(base) jovyan@gpu-pod-example:~$ lscpu
+```
