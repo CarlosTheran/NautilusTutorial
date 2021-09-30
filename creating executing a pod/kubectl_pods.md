@@ -33,3 +33,11 @@ You must get somethign like this:
 NAME              READY   STATUS    RESTARTS   AGE
 gpu-pod-example   1/1     Running   0          34s
 ```
+
+Sometimes create your pod take times, in this case you will see the STATUS as *CreatingContainer*.   
+Now that your pod is running, let's execute this pod to get into it.
+```
+kubectl exec -it gpu-pod-datascience -- /bin/bash
+```
+
+
