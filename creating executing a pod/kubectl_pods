@@ -1,11 +1,21 @@
-#  kubectl commands.
+# Creating and executing a pod (kubectl commands).
 * list of cluster node executed on Nautilus
-'''
+```
 kubectl get nodes
-'''
-* To list the node = <pods, deployments, services, jobs> that are attached to your namespace 
-'''
-kubectl get pods node
-'''
+```
+* To list the **node = <pods, deployments, services, jobs>** that are attached to your namespace 
+```
+  kubectl get pods node
+```
 change the word node by one the modality defined as node.
-* 
+
+At this point you don't have any pods on your namespace. Lets create a pods to lunch it and check the 
+status of the pod. To create a pod we need to follow a structure file save as yaml extention. Lets create
+folder called pods
+```
+  mkdir pods
+```
+
+Please download the file [tensorflow-pod] to your computer and save it on pods folder.
+
+
