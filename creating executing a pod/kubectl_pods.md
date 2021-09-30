@@ -18,13 +18,13 @@ To create a pod, we need to follow a structured file save as yaml extension. Let
 Please download the file [tensorflow-pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/tensorflow-pod.yaml)
 , which is an example of a *pod* and save it on your pods folder.
 
-Let's create our pod with the requirements established in  *tensorflow-pod*
+* Let's create our pod with the requirements established in  *tensorflow-pod*
 
 ```
 kubectl create -f tensorflow-pod.yaml
 ```
 
-Verify the status of your pods
+* Verify the status of your pods
 ```
 kubectl get pods
 ```
@@ -35,7 +35,7 @@ gpu-pod-example   1/1     Running   0          34s
 ```
 
 Sometimes create your pod take times, in this case you will see the STATUS as *CreatingContainer*.   
-Now that your pod is running, let's execute this pod to get into it.
+* Now that your pod is running, let's execute this pod to get into it.
 ```
 kubectl exec -it gpu-pod-datascience -- /bin/bash
 ```
