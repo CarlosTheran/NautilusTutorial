@@ -113,4 +113,4 @@ The ouput will be
 ![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyter.PNG)
 
 Now, lets create our python notebook. For this you need to *new* and choose **Python3(ipykernel)**
-![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyter_python3.PNG)
+![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyter_python3.png)
