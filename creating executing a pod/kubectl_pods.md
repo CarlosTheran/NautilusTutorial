@@ -25,10 +25,8 @@ CURRENT   NAME       CLUSTER    AUTHINFO                                    NAME
 *         nautilus   nautilus   http://cilogon.org/serverA/users/51474921   <YOUR NAME SPACE>
 ```
 
-Please download the file [tensorflow-pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/tensorflow-pod.yaml)
+* Let's create our pod with the requirements established in  *tensorflow-pod*. Please download the file [tensorflow-pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/tensorflow-pod.yaml)
 , which is an example of a *pod* and save it on your pods folder.
-
-* Let's create our pod with the requirements established in  *tensorflow-pod*
 
 ```
 kubectl create -f tensorflow-pod.yaml
