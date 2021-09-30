@@ -56,7 +56,13 @@ The output of this command must the following. Which mean that you are into your
 
 ```
 (base) jovyan@gpu-pod-example:~$ uname
+```
+```
 (base) jovyan@gpu-pod-example:~$ uname --m
+```
+```
 (base) jovyan@gpu-pod-example:~$ uname -o
+```
+```
 (base) jovyan@gpu-pod-example:~$ lscpu
 ```
