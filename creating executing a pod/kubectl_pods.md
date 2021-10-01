@@ -133,7 +133,8 @@ Once get access is provided, you are allowed to create your containers. There is
 
 ![Jupyterhub_container](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyterhub_containers.PNG)
 
-When you select the requirements and image for your pod, the server will start pulling the image you selected.
+When you select the requirements and image for your pod, the server will start pulling the image you selected. In this
+particular case the image selected was **Datascience**
 
 ![Jupyterhub_container_lunched](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupytherhub_lunched.PNG)
 
