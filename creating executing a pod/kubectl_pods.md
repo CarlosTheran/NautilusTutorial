@@ -140,3 +140,6 @@ particular case the image selected was **Datascience**
 
 ![Jupyterhub_container_lunched](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupytherhub_lunched.PNG)
 
+Finally, if you want to see all the images provided by nautilus you must to create an [GitLab account](https://gitlab.nrp-nautilus.io/users/sign_in). Then, you will be able to see the [Container Registry](https://gitlab.nrp-nautilus.io/prp/jupyter-stack/container_registry/)
+
+Now that we can create and execute pods on **nautilus**, let's run an [example]. 
