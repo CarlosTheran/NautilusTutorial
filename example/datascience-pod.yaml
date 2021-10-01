@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gpu-pod-datascience
+spec:
+  containers:
+  - name: gpu-container
+    image: gitlab-registry.nrp-nautilus.io/prp/jupyter-stack/datascience
+    command: ["sleep", "infinity"]
+    resources:
+      limits:
+        nvidia.com/gpu: 2
+        memory: "12Gi"
+      requests:
+        nvidia.com/gpu: 2
+        memory: "12Gi"
+        
