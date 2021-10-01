@@ -121,6 +121,8 @@ Now you are ready to have fun working on you code.
 **If you are not familiar with working on the terminal, there is the option to lunch your container 
 and Jupiter notebook using  [Jupyterhub](https://jupyterhub.readthedocs.io/en/stable/)** 
 
+To verify how much resources your jobs are using, to [namespace dashboard](https://grafana.nrp-nautilus.io/d/85a562078cdf77779eaa1add43ccec1e/kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=default&var-cluster=&var-namespace=fa) and select your namespace. 
+
 * If you need to quickly run your code on *nautilus* and skip everything related to Kubernetes, you want to use jupyterHub and set the specs of your containers (GPUs, Cores, RAM, GPU type, and image)
 easily on nautilus, do the following instructions.
 
