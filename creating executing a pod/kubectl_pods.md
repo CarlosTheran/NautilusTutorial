@@ -117,3 +117,13 @@ Now, lets create our python notebook. For this you need to *new* and choose **Py
 
 Now you are ready to have fun working on you code.
 ![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/python3.PNG)
+
+**If you are not familiar with working on the terminal, there is the option to lunch your container 
+and Jupiter notebook using  [Jupyterhub](https://jupyterhub.readthedocs.io/en/stable/)** 
+
+* If you need to quickly run your code on *nautilus* and skip everything related to Kubernetes, you want to use jupyterHub and set the specs of your containers (GPUs, Cores, RAM, GPU type, and image)
+easily on nautilus, do the following instructions.
+
+If you are located in the east of the USA, create your account on [jupyterhub-east](https://jupyterhub-east.nrp-nautilus.io/hub/login). Otherwise,  if you are located in the west of the USA use [jupyterhub-west](https://jupyterhub-west.nrp-nautilus.io/hub/login?next=%2Fhub%2F). For new users,  you need to request access in the [matrix](https://element.nrp-nautilus.io/#/room/#general:matrix.nrp-nautilus.io) using your institutional credentials to login using CILogon. If the domain of your institutional email is not on the system, they will be at your institution domain. For example, for juandel.pueblo@upr.edu or juandel.pueblo@famu.edu they will add the domain *upr* or *famu*. 
+
+![Jupyterhub](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/python3jupyterhub.PNG)
