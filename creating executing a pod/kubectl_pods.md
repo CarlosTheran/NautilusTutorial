@@ -127,3 +127,9 @@ easily on nautilus, do the following instructions.
 If you are located in the east of the USA, create your account on [jupyterhub-east](https://jupyterhub-east.nrp-nautilus.io/hub/login). Otherwise,  if you are located in the west of the USA use [jupyterhub-west](https://jupyterhub-west.nrp-nautilus.io/hub/login?next=%2Fhub%2F). For new users,  you need to request access in the [matrix](https://element.nrp-nautilus.io/#/room/#general:matrix.nrp-nautilus.io) using your institutional credentials to login using CILogon. If the domain of your institutional email is not on the system, they will be at your institution domain. For example, for juandel.pueblo@upr.edu or juandel.pueblo@famu.edu they will add the domain *upr* or *famu*. 
 
 ![Jupyterhub](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupytherhub.PNG)
+
+
+Once get access is provided you are allow to create your containers. There is a restrintion, *Your persistent home folder initially will be limited to 5GB. If you need more, you can request it to be extended.*
+
+![Jupyterhub_container](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyterhub_containers.PNG)
+
