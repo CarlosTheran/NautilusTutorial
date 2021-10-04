@@ -15,6 +15,6 @@ Create an namespace on your portal. then, test the connection of your namespace 
   kubectl get pods -n your_namespace
 ```
 
-For more information and details visit [Quick Start](https://ucsd-prp.gitlab.io/userdocs/start/quickstart/). Now, lets create our [first Pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/kubectl_pods).
+For more information and details visit [Quick Start](https://ucsd-prp.gitlab.io/userdocs/start/quickstart/). Now, lets create our [first Pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/kubectl_pods.md).
 
 
