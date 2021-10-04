@@ -9,7 +9,7 @@ kubectl get nodes
 ```
 change the word node by one the modality defined as node.
 
-At this point, you don't have any pods on your namespace. Let's create a pod and lunch it and check the status of the pod. 
+At this point, you don't have any pods on your namespace. Let's create a pod and launch it and check the status of the pod. 
 To create a pod, we need to follow a structured file save as yaml extension. Lets create folder called pods
 ```
   mkdir pods
@@ -103,7 +103,7 @@ Forwarding from 127.0.0.1:8888 -> 8888
 Forwarding from [::1]:8888 -> 8888
 ```
 
-* Open a new tab on your brower (firefox, google chrome, ect) and paste the token generated when you lunch 
+* Open a new tab on your brower (firefox, google chrome, ect) and paste the token generated when you launch 
 your jupyter nootebook in this case, the token was.
 ```
 http://127.0.0.1:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
@@ -118,7 +118,7 @@ Now, lets create our python notebook. For this you need to *new* and choose **Py
 Now you are ready to have fun working on you code.
 ![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/python3.PNG)
 
-**If you are not familiar with working on the terminal, there is the option to lunch your container 
+**If you are not familiar with working on the terminal, there is the option to launch your container 
 and Jupiter notebook using  [Jupyterhub](https://jupyterhub.readthedocs.io/en/stable/)** 
 
 To verify how much resources your jobs are using, to [namespace dashboard](https://grafana.nrp-nautilus.io/d/85a562078cdf77779eaa1add43ccec1e/kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=default&var-cluster=&var-namespace=fa) and select your namespace. 
@@ -138,7 +138,7 @@ Once get access is provided, you are allowed to create your containers. There is
 When you select the requirements and image for your pod, the server will start pulling the image you selected. In this
 particular case the image selected was **Datascience**
 
-![Jupyterhub_container_lunched](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupytherhub_lunched.PNG)
+![Jupyterhub_container_launched](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupytherhub_lunched.PNG)
 
 Finally, if you want to see all the images provided by nautilus you must to create an [GitLab account](https://gitlab.nrp-nautilus.io/users/sign_in). Then, you will be able to see the [Container Registry](https://gitlab.nrp-nautilus.io/prp/jupyter-stack/container_registry/)
 

@@ -1,4 +1,4 @@
-To lunch your Pods, Jobs and Deployments using the platform's resources you need to install The Kubernetes command-line tool [kubectl](https://kubernetes.io/docs/tasks/tools/).
+To launch your Pods, Jobs and Deployments using the platform's resources you need to install The Kubernetes command-line tool [kubectl](https://kubernetes.io/docs/tasks/tools/).
 
 kubectl is installable on a variety of Linux platforms, macOS and Windows. Find your preferred operating system below.
 * [linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)

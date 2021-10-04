@@ -45,7 +45,7 @@ gdown https://drive.google.com/uc?id=1Bov5cu0I5z9OrZ9_O4FK-SX19AEZM0Pa
 gdown https://drive.google.com/uc?id=15P-JxuNLlgrI4ZZ0y1ACgs70xul0gWwx
 ```
 
-Now, lunch your Jupyter Notebook as mention [here](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/kubectl_pods.md). Remeber to change the name of you pod once you lunch the Jupyter Notebook. In this case the pod is named as *gpu-pod-datascience*. Also, you must be into the folder **FIAACNN**.
+Now, launch your Jupyter Notebook as mention [here](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/kubectl_pods.md). Remeber to change the name of you pod once you launch the Jupyter Notebook. In this case the pod is named as *gpu-pod-datascience*. Also, you must be into the folder **FIAACNN**.
 
 
 ### Abstract
