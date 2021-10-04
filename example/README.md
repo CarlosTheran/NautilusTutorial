@@ -9,9 +9,13 @@ the image for DataScience that can be found [here](https://gitlab.nrp-nautilus.i
 * Download the pod [datascience-pod](https://github.com/CarlosTheran/NautilusTutorial/blob/main/example/datascience-pod.yaml) 
 and save it into your pod folder, then execute you pod. For more detail see [here](https://github.com/CarlosTheran/NautilusTutorial/blob/main/creating%20executing%20a%20pod/kubectl_pods.md).
 
-* Once you get into your pod let's clone the repository that contains our [deep learning project].
+* Once you get into your pod let's clone the repository that contains our project for Facial Image Analysis.
 ```
 git clone https://github.com/CarlosTheran/FIAACNN.git
+```
+Now, we need to download the dataset to train, test and validate our model.
+```
+cd FIAACNN/dataset/
 ```
 
 
