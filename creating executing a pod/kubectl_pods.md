@@ -142,4 +142,4 @@ particular case the image selected was **Datascience**
 
 Finally, if you want to see all the images provided by nautilus you must to create an [GitLab account](https://gitlab.nrp-nautilus.io/users/sign_in). Then, you will be able to see the [Container Registry](https://gitlab.nrp-nautilus.io/prp/jupyter-stack/container_registry/)
 
-Now that we can create and execute pods on **nautilus**, let's run an [example]. 
+Now that we can create and execute pods on **nautilus**, let's run an [example](https://github.com/CarlosTheran/NautilusTutorial/tree/main/example). 
