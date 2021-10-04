@@ -28,7 +28,7 @@ Now, we are going to download the dataset to start training the model.
 gdown https://drive.google.com/uc?id=17Z4Ye-RhHDCzIWko2YD9vsUYVK4iy1Wu
 ```
 ```
-down https://drive.google.com/uc?id=1QQ_fAhPbBjr1Yaugb3hihMAirNglCTPV
+gdown https://drive.google.com/uc?id=1QQ_fAhPbBjr1Yaugb3hihMAirNglCTPV
 ```
 2. Data for testing
 ```
