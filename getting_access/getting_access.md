@@ -1,5 +1,5 @@
 # Get Access 
-An account need to be create to get access to the PRP Nautilus cluster. To create the account you must point your browser to [PRP Nautilus portal](https://nautilus.optiputer.net/), then click on "Login". You will be send to CILogon. There you can login using your **ORCID**.   
+An account need to be create to get access to the PRP Nautilus cluster. To create the account you must point your browser to [PRP Nautilus portal](https://nautilus.optiputer.net/), then click on "Login". You will be send to CILogon. There you can login using your **ORCID**.  If you do not have an ORCID account, it will request to create an account.  
 
 ![CILogon](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/CILogon.PNG)
 
