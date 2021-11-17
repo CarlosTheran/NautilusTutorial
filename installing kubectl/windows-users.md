@@ -42,3 +42,5 @@ The following information provides some detailed about Kubernetes installation f
     * Click on **New** and add the path of the folder where you saved *kubectl.exe*
 
     ![add-path](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/add-path.PNG)
+
+    Keep working on your configuration [kubectl](https://github.com/CarlosTheran/NautilusTutorial/blob/main/installing%20kubectl/kubectl_install.md).
