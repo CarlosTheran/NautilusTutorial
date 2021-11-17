@@ -36,7 +36,9 @@ The following information provides some detailed about Kubernetes installation f
     ![system-properties](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/system-properties.PNG)
 
     * Click on **Enviroment Variable**
+
     ![environment-varialbes](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/environment-variable.PNG)
 
     * Click on **path** from User variable for Windowns. Add path for kubernet, click on **Edit** 
+    
     ![add-path](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/add-path.PNG)
