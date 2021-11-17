@@ -1,4 +1,4 @@
-The following information provides some detailed information about Kubernetes installation for Windowns users.
+The following information provides some detailed about Kubernetes installation for Windowns users.
 
 1. Open a Command Prompt window and downloading kubernetes version *v1.22.0*
 
@@ -23,3 +23,20 @@ The following information provides some detailed information about Kubernetes in
 ``type kubectl.exe.sha256``
 
 ![kubectl-type](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/kubectl-type.PNG)
+
+5. Using PowerShell to automate the verification using the -eq operator to get a True or False result:
+
+``$($(CertUtil -hashfile .\kubectl.exe SHA256)[1] -replace " ", "") -eq $(type .\kubectl.exe.sha256)``
+
+6. Add the binary in to your PATH.
+    * Create a new folder, you can named it as you want.For example, *kubernet*.
+    * Copy the file download in step 1 and paste it into the new folder.
+    * Go to **Advance system setting**
+
+    ![system-properties](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/system-properties.PNG)
+
+    * Click on **Enviroment Variable**
+    ![environment-varialbes](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/environment-variable.PNG)
+
+    * Click on **path** from User variable for Windowns. Add path for kubernet, click on **Edit** 
+    ![add-path](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/add-path.PNG)
