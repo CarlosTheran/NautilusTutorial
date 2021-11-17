@@ -1,9 +1,11 @@
 To launch your Pods, Jobs and Deployments using the platform's resources you need to install The Kubernetes command-line tool [kubectl](https://kubernetes.io/docs/tasks/tools/).
 
-kubectl is installable on a variety of Linux platforms, macOS and Windows. Find your preferred operating system below.
+kubectl is installable on a variety of Linux platforms, macOS and Windows. Find your preferred operating system below. 
 * [linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 * [macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
 * [windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
+
+Note: You can find and get the binary file that you need [here](https://www.downloadkubernetes.com/).
 
 For windows user check the following steps [Installetion-Steps](https://github.com/CarlosTheran/NautilusTutorial/blob/main/installing%20kubectl/windows-users.md).
 
