@@ -14,11 +14,12 @@ The following information provides some detailed information about Kubernetes in
 
 ``curl -LO "https://dl.k8s.io/v1.22.0/bin/windows/amd64/kubectl.exe.sha256``
 
+![kubectl-install](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/kubectl-sha.PNG)
+
 4. Using Command Prompt to manually compare CertUtil's output to the checksum file downloaded:
 
 ``CertUtil -hashfile kubectl.exe SHA256``
 
 ``type kubectl.exe.sha256``
 
-![kubectl-install](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/kubectl-sha.PNG)
 ![kubectl-type](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/kubectl-type.PNG)
