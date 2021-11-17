@@ -31,14 +31,14 @@ The following information provides some detailed about Kubernetes installation f
 6. Add the binary in to your PATH.
     * Create a new folder, you can named it as you want.For example, *kubernet*.
     * Copy the file download in step 1 and paste it into the new folder.
-    * Go to **Advance system setting**
+    * Go to **Advance system setting** and click on **Enviroment Variable**
 
     ![system-properties](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/system-properties.PNG)
 
-    * Click on **Enviroment Variable**
+    * Click on **path** from User variable for Windowns. Add path for kubernet, click on **Edit**  
 
     ![environment-varialbes](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/environment-variable.PNG)
 
-    * Click on **path** from User variable for Windowns. Add path for kubernet, click on **Edit** 
-    
+    * Click on **New** and add the path of the folder where you saved *kubectl.exe*
+
     ![add-path](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/add-path.PNG)
