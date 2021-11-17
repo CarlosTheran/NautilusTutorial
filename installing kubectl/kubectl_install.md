@@ -5,6 +5,8 @@ kubectl is installable on a variety of Linux platforms, macOS and Windows. Find 
 * [macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
 * [windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 
+For windows user check the following steps [Installetion-Steps](https://github.com/CarlosTheran/NautilusTutorial/blob/main/installing%20kubectl/windows-users.md).
+
 Now, get into your portal and click on ![GetConfig](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/get_config.PNG)
 Save the file as config and put the file in your /.kube folder. This folder may not exists on your machine, to create it execute: 
 ```
