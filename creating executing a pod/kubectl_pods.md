@@ -102,8 +102,8 @@ Forwarding from 127.0.0.1:8888 -> 8888
 Forwarding from [::1]:8888 -> 8888
 ```
 
-* Open a new tab on your brower (firefox, google chrome, ect) and paste the token generated when you launch 
-your jupyter nootebook in this case, the token was.
+* Open a new tab on your brower (firefox, google chrome, ect) and paste the token generated when you launched 
+your jupyter nootebook. In this case, the token was.
 ```
 http://127.0.0.1:8888/?token=16b3efe8dabecc8fa2264180ae0313d1a543f2de219c3f0a
 ```
