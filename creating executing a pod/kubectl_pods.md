@@ -122,7 +122,10 @@ Now, you are ready to have fun working on you code.
 
 Now, we need to delete the pod.
 
-``kubectl delete pod gpu-pod-example``
+```
+kubectl delete pod gpu-pod-example
+```
+
 
 
 **If you are not familiar with working on the terminal, there is the option to launch your container 
