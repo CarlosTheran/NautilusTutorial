@@ -120,10 +120,13 @@ Now, you are ready to have fun working on you code.
 
 **IMPORTANT NOTE**: Once you finish working on you jupyter notebook do not forget to Shutdown your notebook server. Go to your command prompt used to luch your jupyter notebook and type **Ctrl+C**, then **y** and finally **exit**.
 
-Now, we need to delete the pod.
+Now, we need to delete the pod and check that was already deleted.
 
 ```
 kubectl delete pod gpu-pod-example
+```
+```
+kubectl get pods
 ```
 
 
