@@ -118,7 +118,11 @@ Now, you are ready to have fun working on you code.
 ![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/python3.PNG)
 
 
-IMPORTANT NOTE: Once you finish working on you jupyter notebook do not forget to Shutdown your notebook server. Go to your command prompt used to luch your jupyter notebook and type **Ctrl+C**, then **y**.
+**IMPORTANT NOTE**: Once you finish working on you jupyter notebook do not forget to Shutdown your notebook server. Go to your command prompt used to luch your jupyter notebook and type **Ctrl+C**, then **y** and finally **exit**.
+
+Now, we need to delete the pod.
+
+``kubectl delete pod gpu-pod-example``
 
 
 **If you are not familiar with working on the terminal, there is the option to launch your container 
