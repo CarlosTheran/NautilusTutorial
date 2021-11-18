@@ -117,6 +117,10 @@ Now, lets create our python notebook. For this you need to go to *new* and choos
 Now, you are ready to have fun working on you code.
 ![Jupyter](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/python3.PNG)
 
+
+IMPORTANT NOTE: Once you finish working on you jupyter notebook do not forget to Shutdown your notebook server. Go to your command prompt used to luch your jupyter notebook and type **Ctrl+C**, then **y**.
+
+
 **If you are not familiar with working on the terminal, there is the option to launch your container 
 and Jupiter notebook using  [Jupyterhub](https://jupyterhub.readthedocs.io/en/stable/)** 
 
