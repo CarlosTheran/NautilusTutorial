@@ -130,7 +130,7 @@ If you are located in the east of the USA, create your account on [jupyterhub-ea
 ![Jupyterhub](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupytherhub.PNG)
 
 
-Once get access is provided, you are allowed to create your containers. There is a restriction, *Your persistent home folder initially will be limited to 5GB. If you need more, you can request it to be extended.*
+Once the access is provided, you are allowed to create your containers. There is a restriction, *Your persistent home folder initially will be limited to 5GB of storage. You can request for more storage.*
 
 ![Jupyterhub_container](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/jupyterhub_containers.PNG)
 
