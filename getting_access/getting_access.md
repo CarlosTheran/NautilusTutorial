@@ -2,7 +2,7 @@
 An account need to be create to get access to the PRP Nautilus cluster. To create the account you must point your browser to [PRP Nautilus portal](https://portal.nrp-nautilus.io), then click on "Login". You will be send to CILogon. There you can login using your **ORCID**.  If you do not have an ORCID account, it will request to create an account. If you are in FAMU (faculty to Student) you need to select Florida A&M Univeristy CILogonFAMU.    
 
 ![CILogon](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/CILogon.PNG)
-![CILogonFAMU](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/famu.PNG)
+![CILogonFAMU](https://github.com/CarlosTheran/NautilusTutorial/blob/main/img/famu.png)
 
 If your university is not registered in this platform you can seletc **Google** and create your account. Once your account is created you will be able to get into your portal on Nautilus.
 
