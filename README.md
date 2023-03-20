@@ -1,5 +1,5 @@
 # NautilusTutorial
-This repository contains a tutorial about how to get access and deploy your containers on your namespace. Even though, This tutorial does not intend to replace the original tutorial provided by **nautilus support**. The objective of the information provided in this repository is for those that are not familiar with working on a console and command environment. I highly recommend reading the original documentation that can be found [here](https://ucsd-prp.gitlab.io/userdocs/start/toc-start/).
+This repository contains a tutorial about how to get access and deploy your containers on your namespace. Even though, This tutorial does not intend to replace the original tutorial provided by **nautilus support**. The objective of the information provided in this repository is for those that are not familiar with working on a console and command environment. I highly recommend reading the original documentation that can be found [here](https://ucsd-prp.gitlab.io/userdocs/start/get-access/).
 
 ## How to start
 * First, you must go into [getting_access](https://github.com/CarlosTheran/NautilusTutorial/blob/main/getting_access/getting_access.md) folder to learn the process for requesting access into nautilus.
